@@ -144,7 +144,7 @@ class Pow(pg.sprite.Sprite):
         self.image.set_colorkey(BLACK)
         self.rect = self.image.get_rect()
         self.rect.centerx = self.plat.rect.centerx
-        self.rect.bottom = self.plat.rect.top - 5
+        self.rect.bottom = self.plat.rect.top - 5 # comment
 
     def update(self):
         self.rect.bottom = self.plat.rect.top - 5
